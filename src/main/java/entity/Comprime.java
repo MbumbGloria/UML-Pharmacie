@@ -1,4 +1,4 @@
-package org.example;
+package entity;
 
 public class Comprime extends Medicament {
     private String dosage;
@@ -11,17 +11,14 @@ public class Comprime extends Medicament {
         this.nbComprimes = nbComprimes;
     }
 
-    public String getDosage() {
-        return dosage;
-    }
-    public void setDosage(String dosage) {
-        this.dosage = dosage;
-    }
+    public String getDosage() { return dosage; }
+    public void setDosage(String dosage) { this.dosage = dosage; }
 
-    public int getNbComprimes() {
-        return nbComprimes;
-    }
-    public void setNbComprimes(int nbComprimes) {
-        this.nbComprimes = nbComprimes;
+    public int getNbComprimes() { return nbComprimes; }
+    public void setNbComprimes(int nbComprimes) { this.nbComprimes = nbComprimes; }
+
+    @Override
+    public String toString() {
+        return super.toString() + " | Détails: " + nbComprimes + " cps, " + dosage;
     }
 }
