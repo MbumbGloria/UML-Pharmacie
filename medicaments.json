@@ -1,0 +1,13 @@
+[
+  {
+    "dosage": "23",
+    "nbComprimes": 2,
+    "nomCommercial": "sdfg",
+    "code": "1234",
+    "prix": 45.0,
+    "dateExpiration": "20-10-2030",
+    "stock": 3,
+    "laboratoire": "sffs",
+    "formePharmaceutique": "Comprimé"
+  }
+]
